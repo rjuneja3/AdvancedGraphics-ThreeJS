@@ -1,0 +1,136 @@
+{
+
+    "boxFriction":0.65,
+    "boxRestitution":0.7,
+    "boxMass": 5,
+    "clicks": 2,
+    "box":  {
+        "0": {
+            "name": "box0",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0,    "y" : 0.5,  "z" : -3   }
+        },
+        "1": {
+            "name": "box1",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(76,0,153)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 1.5,    "y" : 0.5,  "z" : -3   }
+        },
+        "2": {
+            "name": "box2",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -1.5,    "y" : 0.5,  "z" : -3   }
+        },
+        "3": {
+            "name": "box3",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(76,0,153)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -0.75,    "y" : 1.5,  "z" : -3   }
+        },
+        "4": {
+            "name": "box4",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0.75,    "y" : 1.5,  "z" : -3   }
+        },
+        "5": {
+            "name": "box5",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(76,0,153)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0,    "y" : 2.5,  "z" : -3   }
+        },
+        "6": {
+            "name": "yellowBox",
+            "size": { "x" : 4,    "y" : 4,    "z" : 4   },
+            "color": "rgb(255,255,0)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0,    "y" : 5,  "z" : -3   }
+        },
+        "7": {
+            "name": "box6",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0,    "y" : 0.5,  "z" : 5   }
+        },
+        "8": {
+            "name": "box7",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(76,0,153)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 1.5,    "y" : 0.5,  "z" : 5   }
+        },
+        "9": {
+            "name": "box8",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(76,0,153)",
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -1.5,    "y" : 0.5,  "z" : 5   }
+        },
+        "10": {
+            "name": "box9",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(76,0,153)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -0.75,    "y" : 1.5,  "z" : 5   }
+        },
+        "11": {
+            "name": "box10",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0.75,    "y" : 1.5,  "z" : 5   }
+        },
+        "12": {
+            "name": "box11",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0,    "y" : 2.5,  "z" : 5   }
+        },
+        "13": {
+            "name": "pinkBox",
+            "size": { "x" : 4,    "y" : 4,    "z" : 4   },
+            "color": "rgb(204,0,102)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0,    "y" : 5,  "z" : 5   }
+        }
+        
+    }
+}

@@ -1,0 +1,305 @@
+{
+    
+    "boxFriction":0.65,
+    "boxRestitution":0.7,
+    "clicks": 3,
+    "box":  {
+        "0": {
+            "name": "box0",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0,    "y" : 0.5,  "z" : -7   }
+        },
+        "1": {
+            "name": "box1",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0.75,    "y" : 1.5,  "z" : -7   }
+        },
+        "2": {
+            "name": "box2",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -0.75,    "y" : 1.5,  "z" : -7   }
+        },
+        "3": {
+            "name": "box3",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0,    "y" : 2.5,  "z" : -7   }
+        },
+        "4": {
+            "name": "box4",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 1.5,    "y" : 2.5,  "z" : -7   }
+        },
+        "5": {
+            "name": "box5",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -1.5,    "y" : 2.5,  "z" : -7   }
+        },
+        "6": {
+            "name": "box6",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0.75,    "y" : 3.5,  "z" : -7   }
+        },
+        "7": {
+            "name": "yellowBox",
+            "size": { "x" : 3,    "y" : 3,    "z" : 3   },
+            "color": "rgb(255,255,0)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 5,
+            "position":{ "x" : 0,    "y" : 6.5,  "z" : -7   }
+        },
+        "8": {
+            "name": "box8",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -0.75,    "y" : 3.5,  "z" : -7   }
+        },
+        "9": {
+            "name": "box9",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0,    "y" : 4.5,  "z" : -7   }
+        },
+        "10": {
+            "name": "box10",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 2,    "y" : 1.5,  "z" : -7   }
+        },
+        "11": {
+            "name": "box11",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 2.25,    "y" : 0.5,  "z" : -7   }
+        },
+        "12": {
+            "name": "box12",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -2,    "y" : 1.5,  "z" : -7   }
+        },
+        "13": {
+            "name": "box13",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -2.25,    "y" : 0.5,  "z" : -7   }
+        },
+        "14": {
+            "name": "box14",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 1.25,    "y" : 0.5,  "z" : -7   }
+        },
+        "15": {
+            "name": "box15",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -1.25,    "y" : 0.5,  "z" : -7   }
+        },
+        "16": {
+            "name": "box16",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0,    "y" : 0.5,  "z" : 0   }
+        },
+        "17": {
+            "name": "box17",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0.75,    "y" : 1.5,  "z" : 0   }
+        },
+        "18": {
+            "name": "box18",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -0.75,    "y" : 1.5,  "z" : 0   }
+        },
+        "19": {
+            "name": "box19",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -1.25,    "y" : 0.5,  "z" : 0   }
+        },
+        "20": {
+            "name": "box20",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0,    "y" : 2.5,  "z" : 0   }
+        },
+        "21": {
+            "name": "box21",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 1.5,    "y" : 2.5,  "z" : 0   }
+        },
+        "22": {
+            "name": "box22",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -1.5,    "y" : 2.5,  "z" : 0   }
+        },
+        "23": {
+            "name": "box23",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0.75,    "y" : 3.5,  "z" : 0   }
+        },
+        "24": {
+            "name": "pinkBox",
+            "size": { "x" : 3,    "y" : 3,    "z" : 3   },
+            "color": "rgb(204,0,102)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 5,
+            "position":{ "x" : 0,    "y" : 6.5,  "z" : 0   }
+        },
+        "25": {
+            "name": "box25",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -0.75,    "y" : 3.5,  "z" : 0   }
+        },
+        "26": {
+            "name": "box26",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 0,    "y" : 4.5,  "z" : 0   }
+        },
+        "27": {
+            "name": "box27",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 2,    "y" : 1.5,  "z" : 0   }
+        },
+        "28": {
+            "name": "box28",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 2.25,    "y" : 0.5,  "z" : 0   }
+        },
+        "29": {
+            "name": "box29",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -2,    "y" : 1.5,  "z" : 0   }
+        },
+        "30": {
+            "name": "box30",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(153,255,255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -2.25,    "y" : 0.5,  "z" : 0   }
+        },
+        "31": {
+            "name": "box31",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : 1.25,    "y" : 0.5,  "z" : 0   }
+        },
+        "32": {
+            "name": "box32",
+            "size": { "x" : 1,    "y" : 1,    "z" : 1   },
+            "color": "rgb(0, 0, 255)", 
+            "transparency": "true", 
+            "opacity": "0.85",
+            "boxMass": 3,
+            "position":{ "x" : -1.25,    "y" : 0.5,  "z" : 0   }
+        }
+    }
+}

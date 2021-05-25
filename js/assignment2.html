@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+    <script src="../node_modules/three/build/three.js"></script>
+    <script src="../node_modules/three/examples/js/libs/dat.gui.min.js"></script>
+    <script src="../node_modules/three/examples/js/controls/orbitControls.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="physi.js"></script>
+    <script src="assignment2.js"></script>
+    <meta charset="utf-8" />
+    <title> Rohan Juneja final Project </title>
+    <style>
+    .center {
+        margin: auto;
+        width: 50%;
+        
+        padding: 10px;
+        }
+    
+    .title{
+        position: fixed;
+        font-size:50px;
+        top: 700px; 
+        left: auto;  
+        margin: auto;
+        width: 100%; 
+        
+    }
+    .challenge{
+        position: fixed;
+        font-size:40px;
+        top: 70px; 
+        left: auto;  
+        margin: auto;
+        width: 100%; 
+        
+    }
+    .rulesPara{
+        position: fixed;
+        font-size:25px;
+        top: 200px; 
+        left: auto;  
+        margin: auto;
+        width: 100%; 
+        
+    }
+    .clicks{
+        position: fixed;
+        font-size:40px;
+        top: 700px; 
+        left: auto;  
+        margin: auto;
+        width: 100%; 
+        
+    }
+    .reset{
+        position: fixed;
+        font-size:40px;
+        top: 700px; 
+        left: auto;  
+        margin: auto;
+        width: 100%; 
+
+        
+    }
+    .score{
+        position: fixed;
+        font-size:40px;
+        top: 800px; 
+        left: auto;  
+        margin: auto;
+        width: 100%; 
+
+        
+    }
+    #error{
+       
+        position: fixed;
+        font-size:20px;
+        top:680px; 
+        left: auto;  
+        margin: auto;
+        color:red;
+        width: 100%; 
+        
+    }
+    
+    </style>
+</head>
+
+<body>
+    
+    <div id="scoreBoard2" class="title text-center" >
+        <p id="levelClearedScoreboard"> Level: 1</p>
+    </div>
+
+    <div id="scoreBoard" class="challenge">
+        <p id="challengeDetails" class="  text-center"><b>Challenge: Drop the pink box off the table  by clicking the small boxes to win every level. You will have certain number of clicks allowed per level. </b></p>
+        <p id="rulesPara" class=" rulesPara text-center"><b>Rules: +100 Score for every time pink  box drops out of the scene, -20 Points for every Reset, Yellow box is bonus!</b></p>
+         
+        <p id="clickScoreboard" class="clicks"> Clicks: 0</p>
+        <p id="resetScoreboard" class="reset text-right" > Resets: 0</p>
+        <p id="scoreScoreboard" class="score" >Score: 0</p>
+    
+    </div>
+    <div id = "error" class="text-center"></div>
+   
+</body>
+</html>
